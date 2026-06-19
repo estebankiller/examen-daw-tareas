@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "id_usuario": 1,
+    "fecha": "2026-06-12",
+    "titulo": "Entregar práctica DIW",
+    "categoria": "Estudios",
+    "descripcion": "Entrega final de la asignatura Diseño e Implementación Web. Incluye memoria y código fuente.",
+    "estado": "pendiente"
+  },
+  {
+    "id": 2,
+    "id_usuario": 1,
+    "fecha": "2026-06-10",
+    "titulo": "Revisión con el tutor",
+    "categoria": "Estudios",
+    "descripcion": "Reunión online para revisar el progreso del trabajo final.",
+    "estado": "completada"
+  },
+  {
+    "id": 3,
+    "id_usuario": 2,
+    "fecha": "2026-06-15",
+    "titulo": "Preparar informe trimestral",
+    "categoria": "Trabajo",
+    "descripcion": "Recopilar datos del último trimestre y redactar el informe para dirección.",
+    "estado": "pendiente"
+  },
+  {
+    "id": 4,
+    "id_usuario": 1,
+    "fecha": "2026-05-30",
+    "titulo": "Cita médica",
+    "categoria": "Salud",
+    "descripcion": "Revisión general con el médico de cabecera.",
+    "estado": "cancelada"
+  },
+  {
+    "id": 5,
+    "id_usuario": 2,
+    "fecha": "2026-06-20",
+    "titulo": "Comprar material oficina",
+    "categoria": "Trabajo",
+    "descripcion": "Adquirir material de oficina para el próximo mes: tóner, papel, bolígrafos.",
+    "estado": "pendiente"
+  },
+  {
+    "id": 6,
+    "id_usuario": 1,
+    "fecha": "2026-06-08",
+    "titulo": "Hacer la compra semanal",
+    "categoria": "Personal",
+    "descripcion": "Comprar alimentos y productos de limpieza para la semana.",
+    "estado": "completada"
+  },
+  {
+    "id": 7,
+    "id_usuario": 1,
+    "fecha": "2026-06-12",
+    "titulo": "Estudiar para el examen",
+    "categoria": "Estudios",
+    "descripcion": "Repasar los temas 5, 6 y 7 para el examen parcial del viernes.",
+    "estado": "en curso"
+  },
+  {
+    "id": 8,
+    "id_usuario": 2,
+    "fecha": "2026-06-01",
+    "titulo": "Pagar factura luz",
+    "categoria": "Personal",
+    "descripcion": "Pagar la factura de la luz antes de que llegue el aviso de corte.",
+    "estado": "completada"
+  },
+  {
+    "id": 9,
+    "id_usuario": 1,
+    "fecha": "2026-07-01",
+    "titulo": "Entrega proyecto final",
+    "categoria": "Estudios",
+    "descripcion": "Fecha límite para la entrega del proyecto final de la carrera.",
+    "estado": "pendiente"
+  },
+  {
+    "id": 10,
+    "id_usuario": 2,
+    "fecha": "2026-06-25",
+    "titulo": "Reunión equipo desarrollo",
+    "categoria": "Trabajo",
+    "descripcion": "Reunión semanal de seguimiento con el equipo de desarrollo.",
+    "estado": "pendiente"
+  },
+  {
+    "id": 11,
+    "id_usuario": 1,
+    "fecha": "2026-06-05",
+    "titulo": "Ir al dentista",
+    "categoria": "Salud",
+    "descripcion": "Limpieza dental y revisión anual.",
+    "estado": "completada"
+  },
+  {
+    "id": 12,
+    "id_usuario": 2,
+    "fecha": "2026-06-18",
+    "titulo": "Cumpleaños de Ana",
+    "categoria": "Personal",
+    "descripcion": "Comprar regalo y preparar sorpresa para el cumpleaños de Ana.",
+    "estado": "pendiente"
+  },
+  {
+    "id": 13,
+    "id_usuario": 1,
+    "fecha": "2026-05-25",
+    "titulo": "Limpiar archivos PC",
+    "categoria": "Personal",
+    "descripcion": "Ordenar y eliminar archivos temporales del ordenador.",
+    "estado": "cancelada"
+  },
+  {
+    "id": 14,
+    "id_usuario": 1,
+    "fecha": "2026-06-30",
+    "titulo": "Leer libro diseño UX",
+    "categoria": "Estudios",
+    "descripcion": "Terminar de leer el libro 'Don't Make Me Think' de Steve Krug.",
+    "estado": "pendiente"
+  }
+]

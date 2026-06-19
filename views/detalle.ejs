@@ -1,0 +1,19 @@
+<div style="background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); max-width: 600px;">
+    <a href="/" style="color: var(--primary); text-decoration: none; font-weight: bold;">&larr; Volver</a>
+    <h1 style="margin-top: 20px;"><%= tarea.titulo %></h1>
+    
+    <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+        <span class="tag" style="background: #E0E7FF; color: var(--primary); padding: 5px 10px; border-radius: 15px; font-size: 0.9rem;">
+             <%= tarea.categoria %>
+        </span>
+        <span class="tag" style="background: #F3F4F6; color: #374151; padding: 5px 10px; border-radius: 15px; font-size: 0.9rem;">
+            Estado: <strong><%= tarea.estado.toUpperCase() %></strong>
+        </span>
+    </div>
+
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #374151;"><%= tarea.descripcion %></p>
+    
+    <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #E5E7EB; color: #6B7280;">
+         Fecha asignada: <%= tarea.fecha %>
+    </div>
+</div>

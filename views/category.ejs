@@ -1,0 +1,32 @@
+<h1><%= categoriaActual === 'All' ? 'Panel Principal' : 'Categoría: ' + categoriaActual %></h1>
+
+<h2>Próximas Tareas</h2>
+<div class="cards-grid">
+    <% if (proximas.length > 0) { %>
+        <% proximas.forEach(t => { %>
+            <a href="/task/<%= t.id %>" class="card">
+                <span class="tag"><%= t.categoria %></span>
+                <h3 style="margin: 5px 0;"><%= t.titulo %></h3>
+                <p style="color: #4B5563; font-size: 0.9rem;"><%= t.descripcion.substring(0, 50) %>...</p>
+                <div class="date">Vence: <%= t.fecha %></div>
+            </a>
+        <% }) %>
+    <% } else { %>
+        <p>No hay tareas pendientes.</p>
+    <% } %>
+</div>
+
+<h2>Tareas Vencidas / Completadas</h2>
+<div class="cards-grid" style="opacity: 0.7;">
+    <% if (vencidas.length > 0) { %>
+        <% vencidas.forEach(t => { %>
+            <a href="/task/<%= t.id %>" class="card" style="border-left-color: #10B981;">
+                <span class="tag" style="background: #D1FAE5; color: #059669;"><%= t.categoria %></span>
+                <h3 style="margin: 5px 0; text-decoration: line-through;"><%= t.titulo %></h3>
+                <div class="date">Venció: <%= t.fecha %></div>
+            </a>
+        <% }) %>
+    <% } else { %>
+        <p>No hay tareas vencidas.</p>
+    <% } %>
+</div>
